@@ -167,3 +167,34 @@ line-height: 29px;
 .button2:hover {
 	background-color: #2C2C2C;
 }
+.img-portfolio {
+	width: 430px;
+	height: 310px;
+}
+.container-3 {
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+footer {
+	background-color: black;
+}
+.footer {
+	margin: 0 auto;
+	display: flex;
+	list-style-type: none;
+	text-align: right;
+	justify-content: center;
+}
+.footer li a {
+	font-weight: 400;
+	font-size: 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin: 0px 40px 0 0;
+}
+.footer li a:hover {
+	font-weight: 420;
+}
