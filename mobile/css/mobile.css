@@ -188,13 +188,40 @@ footer {
 	justify-content: center;
 }
 .footer li a {
+
 	font-weight: 400;
 	font-size: 20px;
 	display: block;
 	text-decoration: none;
 	color: white;
 	margin: 0px 40px 0 0;
+
 }
 .footer li a:hover {
 	font-weight: 420;
+}
+.contacts {
+	list-style-type: none;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 48px;
+
+
+}
+.contacts li {
+	margin-top: 40px;
+	margin-left: 90px;
+	max-width: 70px; 
+	max-height: 70px;
+
+}
+.contacts li a {
+	color: black;
+}
+a {
+	text-decoration: none;
+}
+.flexbox {
+	display: flex;
+	align-items: center;
 }
